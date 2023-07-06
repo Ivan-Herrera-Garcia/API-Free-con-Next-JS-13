@@ -12,10 +12,11 @@ export default async function Post ({ params }) {
 
   return (
     <article>
-      <h1 className=' text-lg uppercase text-green-600 '>
+      <p className=' text-yellow-400 text-xs'>Post: {id}</p>
+      <h1 className=' text-lg uppercase text-indigo-500 text-justify mx-6 -ml-1 '>
         {post.title}
       </h1>
-      <p>
+      <p className=' text-justify mx-6 ml-0'>
         {post.body}
       </p>
     </article>

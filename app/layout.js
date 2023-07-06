@@ -6,7 +6,7 @@ export default function RootLayout ({ children }) {
       <head>
         <title>Mi primer app con Next 13</title>
       </head>
-      <body className=' bg-gray-900 p-24 '>
+      <body className=' bg-gray-900 p-0 md:p-16 '>
         <Navigation />
         <div className=' ml-10'>
           {children}

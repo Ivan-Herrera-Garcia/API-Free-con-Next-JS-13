@@ -14,14 +14,14 @@ export default async function ListOfPost () {
 
   return (
     <>
-      {posts.slice(0, 5).map(post => (
+      {posts.slice(0, 10).map(post => (
         <article key={post.id}>
           <Link href='/post/[id]' as={`/post/${post.id}`}>
             <h2 className=' text-xl uppercase text-green-600 '>
               {post.title}
             </h2>
           </Link>
-          <p>
+          <p className=' text-justify mx-8 ml-1'>
             {post.body}
             <br />
             <ButtonVerMas />
