@@ -29,7 +29,7 @@ export default function AboutPage () {
         </li>
       </ul>
       <br />
-      <div className='flex justify-between w-2/12'>
+      <div className='flex justify-between w-2/4 md:w-2/12 '>
         <Link href='https://github.com/Ivan-Herrera-Garcia'>
           <ImGithub size={30} color='white' />
         </Link>
